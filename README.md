@@ -1,10 +1,3 @@
-The issue is that some of your code blocks are not "closed" with triple backticks (```), which makes everything below them look like plain text and messes up the spacing.
-
-Here is the fully corrected code. I have fixed the Repository Structure tree and organized the Setup and Running sections so they look clean on GitHub.
-
-Copy and paste everything below this line:
-
-Markdown
 <h1 align="center">🕵️‍♂️ Fake News Detection on Social Media Platforms using NLP and PAC </h1>
 
 <div align="center">
