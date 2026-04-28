@@ -92,31 +92,39 @@ Due to GitHub's file size limits, the datasets are hosted externally on Google D
 
 ## ⚙️ Prerequisites & Setup
 
-Ensure you have Python 3.8+ installed on your system. 
+Ensure you have **Python 3.8+** installed on your system.
 
-**1. Clone the repository:**
+### 1. Clone the Repository
+Open your terminal and run:
 ```bash
-git clone [https://github.com/Adarsh-250/Fake_news_detection_Research_paper.git]
+git clone [https://github.com/Adarsh-250/Fake_news_detection_Research_paper.git](https://github.com/Adarsh-250/Fake_news_detection_Research_paper.git)
 cd Fake_news_detection_Research_paper
-2. Install dependencies:
 
-Bash
+2. Install Dependencies
+Install the required Python libraries using pip:
+
 pip install -r requirements.txt
-3. NLTK Stopwords Setup:
-The scripts require the NLTK stopwords dataset to clean the text. Run this quick Python snippet to ensure it is downloaded:
 
-Python
+3. NLTK Stopwords Setup
+The scripts require the NLTK stopwords dataset. Run this quick Python snippet to download it:
+
+
 import nltk
 nltk.download('stopwords')
-🚀 Running the Project
-1️⃣ Baseline Models Evaluation
-Train the Multinomial Naive Bayes, Logistic Regression, and SVM models. This script handles text preprocessing (URL removal, HTML tag stripping, and stopword removal) before running the TF-IDF vectorizer.
 
-Bash
+🚀 Running the Project
+
+1️⃣ Baseline Models Evaluation
+Train the Multinomial Naive Bayes, Logistic Regression, and SVM models. This script handles text preprocessing before running the TF-IDF vectorizer.
+
+
 python baseline_models.py
+
 2️⃣ Passive Aggressive Classifier Evaluation
+
 Train the primary PAC model to generate a detailed classification report and confusion matrix.
 
 Bash
 python generate_metrics.py
+
  
