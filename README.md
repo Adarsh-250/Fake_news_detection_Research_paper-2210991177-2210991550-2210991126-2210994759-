@@ -99,32 +99,33 @@ Open your terminal and run:
 ```bash
 git clone [https://github.com/Adarsh-250/Fake_news_detection_Research_paper.git](https://github.com/Adarsh-250/Fake_news_detection_Research_paper.git)
 cd Fake_news_detection_Research_paper
+```
 
-2. Install Dependencies
+### 2. Install Dependencies
 Install the required Python libraries using pip:
-
+```bash
 pip install -r requirements.txt
+```
 
-3. NLTK Stopwords Setup
+### 3. NLTK Stopwords Setup
 The scripts require the NLTK stopwords dataset. Run this quick Python snippet to download it:
-
-
+```python
 import nltk
 nltk.download('stopwords')
+```
 
-🚀 Running the Project
+---
 
-1️⃣ Baseline Models Evaluation
-Train the Multinomial Naive Bayes, Logistic Regression, and SVM models. This script handles text preprocessing before running the TF-IDF vectorizer.
+## 🚀 Running the Project
 
-
+### 1️⃣ Baseline Models Evaluation
+Train the **Multinomial Naive Bayes**, **Logistic Regression**, and **SVM** models. This script handles text preprocessing before running the TF-IDF vectorizer.
+```bash
 python baseline_models.py
+```
 
-2️⃣ Passive Aggressive Classifier Evaluation
-
-Train the primary PAC model to generate a detailed classification report and confusion matrix.
-
-Bash
+### 2️⃣ Passive Aggressive Classifier Evaluation
+Train the primary **PAC model** to generate a detailed classification report and confusion matrix.
+```bash
 python generate_metrics.py
-
- 
+```
