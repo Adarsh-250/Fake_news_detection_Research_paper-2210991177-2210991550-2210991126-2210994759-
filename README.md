@@ -46,7 +46,7 @@ Below is the organization of the files within this repository:
 │   └── 🐍 generate_metrics.py
 └── 📄 README.md
 
-##📑 Component Details
+📑 Component Details
 
 ##🛡️ IPR Submission Proof
 Score_Card.pdf: Official scoring and certification document for the project.
@@ -74,12 +74,13 @@ Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
 
 ##📄 README.md: The main documentation file providing an overview and instructions for the repository.
 ---
+---
 
-**## 💾 Dataset Installation (Important)
-**
+## 💾 Dataset Installation (Important)
+
 Due to GitHub's file size limits, the datasets are hosted externally on Google Drive. You must download them before running the code.
 
-1. **Download the Data:** Click [this Google Drive Link](https://drive.google.com/drive/folders/1LaTPNj8HdWASmIPh6iVEJsKDPPXd3i9b?usp=sharing) to access the datasets.
+1. **Download the Data:** Click [this Google Drive Link](https://your-link-here) to access the datasets.
 2. **Extract:** Download both `True.csv` and `Fake.csv`.
 3. **Placement:** Move both downloaded `.csv` files directly into the same folder as your Python scripts.
 
@@ -87,25 +88,30 @@ Due to GitHub's file size limits, the datasets are hosted externally on Google D
 
 ## ⚙️ Prerequisites & Setup
 
-Ensure you have Python 3.8+ installed on your system. 
+Ensure you have Python 3.8+ installed on your system.
 
-**1. Clone the repository:**
+### 1. Clone the repository:
 ```bash
-git clone [https://github.com/Adarsh-250/Fake_news_detection_Research_paper.git]
+git clone [https://github.com/Adarsh-250/Fake_news_detection_Research_paper.git](https://github.com/Adarsh-250/Fake_news_detection_Research_paper.git)
 cd Fake_news_detection_Research_paper
 2. Install dependencies:
+Bash
 
 Bash
 pip install -r requirements.txt
 3. NLTK Stopwords Setup:
-The scripts require the NLTK stopwords dataset to clean the text. Run this quick Python snippet to ensure it is downloaded:
+The scripts require the NLTK stopwords dataset to clean the text. Run this quick Python snippet to ensure they are downloaded:
+
+Python
 
 Python
 import nltk
 nltk.download('stopwords')
 🚀 Running the Project
 1️⃣ Baseline Models Evaluation
-Train the Multinomial Naive Bayes, Logistic Regression, and SVM models. This script handles text preprocessing (URL removal, HTML tag stripping, and stopword removal) before running the TF-IDF vectorizer.
+Train the Multinomial Naive Bayes, Logistic Regression, and SVM models. This script handles text preprocessing and provides comparative results.
+
+Bash
 
 Bash
 python baseline_models.py
@@ -113,8 +119,11 @@ python baseline_models.py
 Train the primary PAC model to generate a detailed classification report and confusion matrix.
 
 Bash
+
+Bash
 python generate_metrics.py
 
-
----
-
+### 💡 Tips for editing:
+* **Google Drive Link:** Replace `(https://your-link-here)` with your actual shared link.
+* **Spacing:** I added horizontal rules (`---`) to match the clean separation seen in your screenshots.
+* **Icons:** I used the exact emojis (💾, ⚙️, 🚀, 1️⃣, 2️⃣) to keep the visual style consistent.
