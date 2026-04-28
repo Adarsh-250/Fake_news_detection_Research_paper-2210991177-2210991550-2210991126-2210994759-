@@ -26,10 +26,7 @@
 
 > **Overview:** This repository contains the source code and the final research paper for the detection of fake news using advanced Natural Language Processing (NLP) techniques. The project utilizes TF-IDF vectorization alongside a Passive Aggressive Classifier to achieve an accuracy of **99.59%** in distinguishing between legitimate and fake news articles.
 
----
-# Fake News Detection on Social Media Platforms
 
-> **Overview:** This repository contains the source code and documentation for detecting fake news using advanced Natural Language Processing (NLP) techniques. The project utilizes TF-IDF vectorization alongside a Passive Aggressive Classifier to achieve an accuracy of **99.59%** in distinguishing between legitimate and fake news articles.
 
 ---
 
@@ -48,23 +45,25 @@ Below is the organization of the files within this repository:
 │   ├── 🐍 baseline_models.py
 │   └── 🐍 generate_metrics.py
 └── 📄 README.md
-📑 Component Details
-🛡️ IPR Submission Proof
+
+##📑 Component Details
+
+##🛡️ IPR Submission Proof
 Score_Card.pdf: Official scoring and certification document for the project.
 
 fake-news-detection-on-social-media...: Documentation providing proof of intellectual property submission.
 
-📝 Report and PPT
+##📝 Report and PPT
 COOP2-Project Report .docx: The comprehensive project report detailing the methodology, literature review, and findings.
 
 PPT_Research.pptx: The official presentation deck used to showcase the research and results.
 
-💻 Source Code
+##💻 Source Code
 baseline_models.py: Python script used to train and evaluate baseline Machine Learning models, including Naive Bayes, Logistic Regression, and SVM.
 
 generate_metrics.py: The primary script for training the Passive Aggressive Classifier and generating detailed performance metrics.
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 Language: Python
 
 Libraries: Scikit-learn, Pandas, NumPy, NLTK
@@ -73,7 +72,7 @@ Algorithm: Passive Aggressive Classifier
 
 Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
 
-📄 README.md: The main documentation file providing an overview and instructions for the repository.
+##📄 README.md: The main documentation file providing an overview and instructions for the repository.
 ---
 
 ## 💾 Dataset Installation (Important)
