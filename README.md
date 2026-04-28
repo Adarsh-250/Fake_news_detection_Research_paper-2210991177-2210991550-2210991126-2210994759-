@@ -28,14 +28,29 @@
 
 ---
 
-## 📂 Repository Components
 
+📂 Repository Components
 As per the evaluation requirements, this repository contains:
-* 📄 **Report:** `Research_Paper.pdf` - The final published research paper.
-* 💻 **Source Code:** * `baseline_models.py`: Script to train and evaluate Baseline ML models (Naive Bayes, Logistic Regression, SVM).
-    * `generate_metrics.py`: Script to train and evaluate the Passive Aggressive Classifier.
-* 📊 **Datasets:** Required `.csv` files based on the ISOT Fake News Dataset.
 
+📁 IPR submission Proof:
+
+📄 Score_Card.pdf: Official scoring or certification document.
+
+📄 fake-news-detection-on-social-...: Proof of intellectual property submission related to the project.
+
+📁 Report and PPT:
+
+📄 COOP2-Project Report .docx: The detailed project report document.
+
+📊 PPT_Research.pptx: The presentation deck covering the research findings.
+
+📁 Source Code:
+
+🐍 baseline_models.py: Script to train and evaluate baseline ML models (Naive Bayes, Logistic Regression, SVM).
+
+🐍 generate_metrics.py: Script to train and evaluate the Passive Aggressive Classifier and generate performance metrics.
+
+📄 README.md: The main documentation file providing an overview and instructions for the repository.
 ---
 
 ## 💾 Dataset Installation (Important)
