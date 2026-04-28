@@ -17,6 +17,7 @@
 * **Current Status:** Completed and Published (DOI: 10.17577/IJERTV15IS031812)
 * **Supervisor:** Dr. Ajay Katiyar
 * **Team Details:**
+
 | Name | Roll Number |
 | :--- | :--- |
 | Adarsh Kumar Gupta | 2210991177 |
