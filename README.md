@@ -35,7 +35,8 @@
 ## 📂 Repository Structure
 
 Below is the organization of the files within this repository:
-
+<pre>
+ .
 ├── 📂 IPR submission Proof
 │   ├── 📄 Score_Card.pdf
 │   └── 📄 fake-news-detection-on-social-media...
@@ -46,6 +47,8 @@ Below is the organization of the files within this repository:
 │   ├── 🐍 baseline_models.py
 │   └── 🐍 generate_metrics.py
 └── 📄 README.md
+
+</pre>
 
 ---
 
