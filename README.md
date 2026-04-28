@@ -31,13 +31,9 @@
 
 ---
 
-
-
 ## 📂 Repository Structure
 
 Below is the organization of the files within this repository:
-
-```text
 ├── 📂 IPR submission Proof
 │   ├── 📄 Score_Card.pdf
 │   └── 📄 fake-news-detection-on-social-media...
@@ -49,7 +45,7 @@ Below is the organization of the files within this repository:
 │   └── 🐍 generate_metrics.py
 └── 📄 README.md
 
-
+ 
 ---
 
 ## 💾 Dataset Installation (Important)
