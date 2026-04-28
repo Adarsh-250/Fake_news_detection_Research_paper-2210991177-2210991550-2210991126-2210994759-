@@ -27,28 +27,51 @@
 > **Overview:** This repository contains the source code and the final research paper for the detection of fake news using advanced Natural Language Processing (NLP) techniques. The project utilizes TF-IDF vectorization alongside a Passive Aggressive Classifier to achieve an accuracy of **99.59%** in distinguishing between legitimate and fake news articles.
 
 ---
+# Fake News Detection on Social Media Platforms
 
+> **Overview:** This repository contains the source code and documentation for detecting fake news using advanced Natural Language Processing (NLP) techniques. The project utilizes TF-IDF vectorization alongside a Passive Aggressive Classifier to achieve an accuracy of **99.59%** in distinguishing between legitimate and fake news articles.
 
-📂 Repository Components
-As per the evaluation requirements, this repository contains:
+---
 
-📁 IPR submission Proof:
+## 📂 Repository Structure
 
-📄 Score_Card.pdf: Official scoring or certification document.
+Below is the organization of the files within this repository:
 
-📄 fake-news-detection-on-social-...: Proof of intellectual property submission related to the project.
+```text
+├── 📂 IPR submission Proof
+│   ├── 📄 Score_Card.pdf
+│   └── 📄 fake-news-detection-on-social-media...
+├── 📂 Report and PPT
+│   ├── 📄 COOP2-Project Report .docx
+│   └── 📊 PPT_Research.pptx
+├── 📂 Source Code
+│   ├── 🐍 baseline_models.py
+│   └── 🐍 generate_metrics.py
+└── 📄 README.md
+📑 Component Details
+🛡️ IPR Submission Proof
+Score_Card.pdf: Official scoring and certification document for the project.
 
-📁 Report and PPT:
+fake-news-detection-on-social-media...: Documentation providing proof of intellectual property submission.
 
-📄 COOP2-Project Report .docx: The detailed project report document.
+📝 Report and PPT
+COOP2-Project Report .docx: The comprehensive project report detailing the methodology, literature review, and findings.
 
-📊 PPT_Research.pptx: The presentation deck covering the research findings.
+PPT_Research.pptx: The official presentation deck used to showcase the research and results.
 
-📁 Source Code:
+💻 Source Code
+baseline_models.py: Python script used to train and evaluate baseline Machine Learning models, including Naive Bayes, Logistic Regression, and SVM.
 
-🐍 baseline_models.py: Script to train and evaluate baseline ML models (Naive Bayes, Logistic Regression, SVM).
+generate_metrics.py: The primary script for training the Passive Aggressive Classifier and generating detailed performance metrics.
 
-🐍 generate_metrics.py: Script to train and evaluate the Passive Aggressive Classifier and generate performance metrics.
+🛠️ Tech Stack
+Language: Python
+
+Libraries: Scikit-learn, Pandas, NumPy, NLTK
+
+Algorithm: Passive Aggressive Classifier
+
+Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
 
 📄 README.md: The main documentation file providing an overview and instructions for the repository.
 ---
