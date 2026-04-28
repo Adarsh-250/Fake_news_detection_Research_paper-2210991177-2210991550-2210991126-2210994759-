@@ -75,30 +75,33 @@ Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
 ##📄 README.md: The main documentation file providing an overview and instructions for the repository.
 ---
 
+
+---
+
 ## 💾 Dataset Installation (Important)
 
-Due to GitHub's file size limits, the datasets are hosted externally. You must download them before running the code.
+Due to GitHub's file size limits, the datasets are hosted externally on Google Drive. You must download them before running the code.
 
-1.  **Download the Data:** Click [this Google Drive Link](https://drive.google.com/drive/folders/1LaTPNj8HdWASmIPh6iVEJsKDPPXd3i9b?usp=sharing) to access the datasets.
-2.  **Extract:** Download both `True.csv` and `Fake.csv`.
-3.  **Placement:** Move both downloaded `.csv` files directly into the same folder as your Python scripts.
+1. **Download the Data:** Click [this Google Drive Link](https://drive.google.com/drive/folders/1LaTPNj8HdWASmIPh6iVEJsKDPPXd3i9b?usp=sharing) to access the datasets.
+2. **Extract:** Download both `True.csv` and `Fake.csv`.
+3. **Placement:** Move both downloaded `.csv` files directly into the same folder as your Python scripts.
 
 ---
 
 ## ⚙️ Prerequisites & Setup
 
-Ensure you have Python 3.9 installed on your system. 
+Ensure you have Python 3.8+ installed on your system. 
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/Adarsh-250/Fake_news_detection_Research_paper.git](https://github.com/Adarsh-250/Fake_news_detection_Research_paper.git)
+git clone [https://github.com/Adarsh-250/Fake_news_detection_Research_paper.git]
 cd Fake_news_detection_Research_paper
 2. Install dependencies:
 
 Bash
 pip install -r requirements.txt
 3. NLTK Stopwords Setup:
-The scripts require the NLTK stopwords dataset to clean the text. Run this Python snippet to ensure it is downloaded:
+The scripts require the NLTK stopwords dataset to clean the text. Run this quick Python snippet to ensure it is downloaded:
 
 Python
 import nltk
