@@ -17,12 +17,12 @@
 * **Current Status:** Completed and Published (DOI: 10.17577/IJERTV15IS031812)
 * **Supervisor:** Dr. Ajay Katiyar
 * **Team Details:**
-    | Name | Roll Number |
-    | :--- | :--- |
-    | Adarsh Kumar Gupta | 2210991177 |
-    | Drishti Monga | 2210991550 |
-    | Aastha | 2210991126 |
-    | Ankita Bansal | 2210994759 |
+| Name | Roll Number |
+| :--- | :--- |
+| Adarsh Kumar Gupta | 2210991177 |
+| Drishti Monga | 2210991550 |
+| Aastha | 2210991126 |
+| Ankita Bansal | 2210994759 |
 
 ---
 
