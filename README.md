@@ -9,17 +9,46 @@
 
 <br>
 
+
+
+## 📋 Project Metadata
+* **Project Title:** Fake News Detection on Social Media Platforms using Natural Language Processing and Passive Aggressive Classifier
+* **Type:** Research Paper
+* **Current Status:** Completed and Published (DOI: 10.17577/IJERTV15IS031812)
+* **Supervisor:** Dr. Ajay Katiyar
+* **Team Details:**
+    | Name | Roll Number |
+    | :--- | :--- |
+    | Adarsh Kumar Gupta | 2210991177 |
+    | Drishti Monga | 2210991550 |
+    | Aastha | 2210991126 |
+    | Ankita Bansal | 2210994759 |
+
+---
+
+
 > **Overview:** This repository contains the source code and the final research paper for the detection of fake news using advanced Natural Language Processing (NLP) techniques. The project utilizes TF-IDF vectorization alongside various machine learning classifiers to accurately classify news articles as legitimate or fake.
 
 ---
 
-## 📂 Repository Components
 
-As per the evaluation requirements, this repository contains:
-* 📄 **Report:** `Research_Paper.pdf` - The final published/submitted research paper.
-* 💻 **Source Code:** * `baseline_models.py`: Script to train and evaluate Baseline ML models (Naive Bayes, Logistic Regression, SVM).
-  * `generate_metrics.py`: Script to train and evaluate the Passive Aggressive Classifier.
-* 📊 **Datasets:** Required `.csv` files (linked below).
+
+## 📂 Repository Structure
+
+Below is the organization of the files within this repository:
+
+```text
+├── 📂 IPR submission Proof
+│   ├── 📄 Score_Card.pdf
+│   └── 📄 fake-news-detection-on-social-media...
+├── 📂 Report and PPT
+│   ├── 📄 COOP2-Project Report .docx
+│   └── 📊 PPT_Research.pptx
+├── 📂 Source Code
+│   ├── 🐍 baseline_models.py
+│   └── 🐍 generate_metrics.py
+└── 📄 README.md
+
 
 ---
 
